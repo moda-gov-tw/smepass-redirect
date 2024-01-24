@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="refresh" content="0; url=https://smepass.adi.gov.tw">
-</head>
+<body>
+  <script>
+    var url = new URL(location.href);
+    url.host = "smepass.adi.gov.tw";
+    location.href = url.toString();
+  </script>
+</body>
 </html>
