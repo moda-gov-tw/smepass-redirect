@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
   <script>
-    var url = new URL(location.href);
+    var url = new URL(window.location.href);
     url.host = "smepass.adi.gov.tw";
-    location.href = url.toString();
+    window.location.href = url.href;
   </script>
-</body>
+</head>
 </html>
